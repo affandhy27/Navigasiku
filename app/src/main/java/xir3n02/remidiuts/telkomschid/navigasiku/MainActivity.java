@@ -25,5 +25,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Main3Activity.class));
             }
         });
+
+        findViewById(R.id.frag3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Main4Activity.class));
+            }
+        });
+
+        findViewById(R.id.frag4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Main7Activity.class));
+            }
+        });
     }
 }
